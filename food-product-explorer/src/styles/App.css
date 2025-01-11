@@ -1,0 +1,28 @@
+.app {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-details {
+    margin: 20px;
+  }
+  
+  /* Add more CSS styles for responsiveness, layout, and visual enhancements as needed */
